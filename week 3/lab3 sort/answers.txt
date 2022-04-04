@@ -1,0 +1,44 @@
+sort1 uses: Bubble sort
+How do you know?: In case of sorted-file (Best case), this is the best sort.
+// random50000 running time
+real    0m15.746s
+user    0m6.408s
+sys     0m0.100s
+//sorted50000 running time
+real    0m4.918s
+user    0m0.026s
+sys     0m0.082s
+//reversed50000 running time
+real    0m13.876s
+user    0m4.638s
+sys     0m0.060s
+
+sort2 uses: Merge sort
+How do you know?: At the random 50000 samples, this is the fastest sort.
+// random50000 running time
+real    0m7.112s
+user    0m0.034s
+sys     0m0.094s
+//sorted50000 running time
+real    0m7.941s
+user    0m0.049s
+sys     0m0.082s
+//reversed50000 running time
+real    0m5.265s
+user    0m0.028s
+sys     0m0.094s
+
+sort3 uses: Selection sort
+How do you know?: In any cases, this sort always has relative big running time.
+// random50000 running time
+real    0m11.441s
+user    0m2.434s
+sys     0m0.076s
+//sorted50000 running time
+real    0m11.988s
+user    0m2.453s
+sys     0m0.084s
+//reversed50000 running time
+real    0m10.634s
+user    0m2.478s
+sys     0m0.072s
